@@ -19,4 +19,8 @@ public class ApplicationController {
         return "Software Engineer | Pune";
     }
 
+    @GetMapping("/product")
+    public String product() {
+        return "QR | Code Scanner";
+    }
 }
